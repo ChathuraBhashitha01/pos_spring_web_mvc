@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdc908c3-cc88-4105-8206-c26b0c58db76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../front_end/front_end/front_end.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/front_end/front_end.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713631402913</updated>
-      <workItem from="1713631404276" duration="1580000" />
+      <workItem from="1713631404276" duration="1919000" />
     </task>
     <servers />
   </component>
