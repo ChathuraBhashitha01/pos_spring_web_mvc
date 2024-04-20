@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7eb757f-4360-40e3-82ce-7b38c00fd306" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/images/customers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/images/items.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assest/js/jquery-3.7.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/CustomerController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/HomePageController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/ItemController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/PlaceOrderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/validation/CustomerValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/validation/ItemValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/validation/PlaceOrderValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/OrderDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../back_end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../back_end/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../back_end/src/main/java/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../back_end/src/main/java/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2fNCxfKkalc3a8IgLF3sK5vne3w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GDSE 66\pos_spring_web_mvc\front_end\front_end" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7eb757f-4360-40e3-82ce-7b38c00fd306" name="Default Changelist" comment="" />
+      <created>1713632398525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713632398525</updated>
+      <workItem from="1713632399988" duration="315000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
