@@ -30,17 +30,17 @@ public class CustomerController {
     }
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
-    public boolean saveCustomer(@RequestBody CustomerDTO customerDTO){
-        return customerService.saveCustomer(customerDTO);
+    public void saveCustomer(@RequestBody CustomerDTO customerDTO){
+        customerService.saveCustomer(customerDTO);
     }
 
     @PatchMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
-    public boolean updateCustomer(CustomerDTO customerDTO){
-        return customerService.updateCustomer(customerDTO);
+    public void updateCustomer(CustomerDTO customerDTO){
+        customerService.updateCustomer(customerDTO);
     }
 
     @DeleteMapping(value = "{/id}")
-    public boolean deleteCustomer(@PathVariable("id") String id){
-        return customerService.deleteCustomer(id);
+    public void deleteCustomer(@PathVariable("id") String id){
+        customerService.deleteCustomer(id);
     }
 }
