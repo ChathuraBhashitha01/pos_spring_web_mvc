@@ -4,8 +4,6 @@ import lk.ijse.gdse.spring.webmvc.dto.CustomerDTO;
 import lk.ijse.gdse.spring.webmvc.service.CustomerService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-
-import java.awt.*;
 import java.util.List;
 
 @RestController
@@ -21,6 +19,7 @@ public class CustomerController {
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public List<CustomerDTO> getAllCustomers(){
+        System.out.println("Customer Controller");
         return customerService.getAllCustomers();
     }
 
