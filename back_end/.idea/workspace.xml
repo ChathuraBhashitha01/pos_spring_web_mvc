@@ -10,8 +10,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdc908c3-cc88-4105-8206-c26b0c58db76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/back_end_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/api/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/config/JPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/config/JPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/dto/CustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/gdse/spring/webmvc/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/WebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/advice/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/api/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/api/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/config/JPAConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/config/WebRootConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/dto/CustomerDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/repository/CustomerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/service/exception/DuplicateRecordException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/service/exception/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/service/exception/ServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/classes/lk/ijse/gdse/spring/webmvc/service/impl/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/angus-activation-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/antlr4-runtime-4.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.14.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-6.0.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-6.4.4.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-8.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-4.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.16.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.16.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.16.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jakarta.inject-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jandex-3.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jaxb-core-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.5.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/micrometer-commons-1.12.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/micrometer-observation-1.12.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/modelmapper-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.25.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-context-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-core-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-3.2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-3.2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-web-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-6.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/lib/txw2-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/back_end-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/WebAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/advice/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/advice/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/config/WebAppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/dto/CustomerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/dto/CustomerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lk/ijse/gdse/spring/webmvc/service/impl/CustomerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../front_end/front_end/front_end.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/front_end/front_end.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +114,15 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="2fNAwW5tuKK4ZJbg040nqSRDtYu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -56,24 +135,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38235295" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -85,7 +151,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="21eb716e-ac5c-4ff0-9495-d4037a2ce93f" />
+        <option name="BASE_DIRECTORY_NAME" value="95316c8e-d6c2-4886-b058-cd13f5741d78" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -93,7 +159,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58529" />
+        <option name="DEBUG_PORT" value="58620" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -181,7 +247,11 @@
       <workItem from="1713795739219" duration="4288000" />
       <workItem from="1713849622600" duration="1232000" />
       <workItem from="1713993841285" duration="2260000" />
-      <workItem from="1714024023470" duration="3157000" />
+      <workItem from="1714024023470" duration="6672000" />
+      <workItem from="1714044300168" duration="1913000" />
+      <workItem from="1714061476555" duration="9920000" />
+      <workItem from="1714073281483" duration="2437000" />
+      <workItem from="1714112335108" duration="2489000" />
     </task>
     <servers />
   </component>
@@ -199,5 +269,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -23,7 +23,7 @@ public class CustomerController {
         return customerService.getAllCustomers();
     }
 
-    @GetMapping(value = "{/id}")
+    @GetMapping(value = "/{id}",consumes = MediaType.APPLICATION_JSON_VALUE)
     public CustomerDTO getCustomerDetails(@PathVariable("id") String id){
         return customerService.getCustomerDetails(id);
     }
@@ -38,7 +38,7 @@ public class CustomerController {
         customerService.updateCustomer(customerDTO);
     }
 
-    @DeleteMapping(value = "{/id}")
+    @DeleteMapping(value = "/{id}")
     public void deleteCustomer(@PathVariable("id") String id){
         customerService.deleteCustomer(id);
     }

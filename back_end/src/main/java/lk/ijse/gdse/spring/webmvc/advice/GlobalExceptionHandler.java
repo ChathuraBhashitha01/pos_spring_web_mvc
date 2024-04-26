@@ -17,10 +17,10 @@ import java.util.Map;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-
     @ExceptionHandler(ServiceException.class)
-    public ResponseEntity<Map<String,Object>> handleServiceException(ServiceException exp){
-        Map<String,Object> errorAttribute;
+    public ResponseEntity<Map<String,Object>> handleServiceException
+            (ServiceException exp){
+        Map<String, Object> errorAttribute;
         if(exp instanceof DuplicateRecordException){
             errorAttribute = getCommonErrorAttribute(HttpStatus.CONFLICT);
         } else if (exp instanceof NotFoundException) {
@@ -36,9 +36,12 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    private Map<String,Object> handleDataValidationException(MethodArgumentNotValidException exp){
-        Map<String,Object> errorAttribute=getCommonErrorAttribute(HttpStatus.BAD_REQUEST);
-        ArrayList<Map<String,Object>> errorList=new ArrayList<>();
+    public Map<String,Object> handleDataValidationException
+            (MethodArgumentNotValidException exp){
+        Map<String, Object> errorAttribute =
+                getCommonErrorAttribute(HttpStatus.BAD_REQUEST);
+
+        ArrayList<Map<String,Object>> errorList = new ArrayList<>();
 
         for (FieldError fieldError : exp.getFieldErrors()) {
             LinkedHashMap<String, Object> errorMap = new LinkedHashMap<>();
@@ -55,9 +58,9 @@ public class GlobalExceptionHandler {
     }
 
     public Map<String,Object> getCommonErrorAttribute(HttpStatus status){
-        LinkedHashMap<String,Object> errorAttributes=new LinkedHashMap<>();
-        errorAttributes.put("code",status.value());
-        errorAttributes.put("status",status);
+        LinkedHashMap<String, Object> errorAttributes = new LinkedHashMap<>();
+        errorAttributes.put("code", status.value());
+        errorAttributes.put("status", status);
         return errorAttributes;
     }
 }
