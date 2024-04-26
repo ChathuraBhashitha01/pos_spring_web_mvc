@@ -76,6 +76,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38235295" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GDSE 66\pos_spring_web_mvc\back_end\src\main\java\lk\ijse\gdse\spring\webmvc\entity" />
+      <recent name="C:\GDSE 66\pos_spring_web_mvc\back_end\src\main\java\lk\ijse\gdse\spring\webmvc\dto" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
