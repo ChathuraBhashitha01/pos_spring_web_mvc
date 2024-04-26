@@ -23,7 +23,7 @@ public class CustomerController {
         return customerService.getAllCustomers();
     }
 
-    @GetMapping(value = "/{id}",consumes = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
     public CustomerDTO getCustomerDetails(@PathVariable("id") String id){
         return customerService.getCustomerDetails(id);
     }
