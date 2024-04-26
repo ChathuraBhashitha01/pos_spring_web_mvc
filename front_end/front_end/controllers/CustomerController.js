@@ -2,7 +2,7 @@ function loadCustomerIDs(){
     $("#cmbCustomerID").empty();
     customerDB.length=0;
     $.ajax({
-        url: "http://localhost:8080/app/customers",
+        url: "http://localhost:8080/app/api/v1/customers",
         method: "GET",
         dataType: "json",
         success: function (resp) {
@@ -87,7 +87,7 @@ function saveCustomer() {
 
         const jsonObject=JSON.stringify(newCustomer);
         $.ajax({
-            url:"http://localhost:8080/app/customers",
+            url:"http://localhost:8080/app/api/v1/customers",
             method:"POST",
             data:jsonObject,
             contentType:("application/json"),
@@ -157,7 +157,7 @@ function deleteCustomer(){
         let consent = confirm("Do you really want to Delete this customer.?");
         if (consent) {
             $.ajax({
-                url: "http://localhost:8080/app/customers?id=" + id,
+                url: "http://localhost:8080/app/api/v1/customers?id=" + id,
                 method: "DELETE",
                 success: function (resp, textStatus, jqxhr) {
                     if (jqxhr.status == 201) {
@@ -196,7 +196,7 @@ function updateCustomer(){
 
             const jsonObject = JSON.stringify(newCustomer);
             $.ajax({
-                url: "http://localhost:8080/app/customers",
+                url: "http://localhost:8080/app/api/v1/customers",
                 method: "PUT",
                 data: jsonObject,
                 contentType: ("application/json"),

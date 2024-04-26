@@ -2,7 +2,7 @@ function loadItemCodes(){
     $("#cmbItemCode").empty();
     itemDB.length=0;
     $.ajax({
-        url: "http://localhost:8080/app/items",
+        url: "http://localhost:8080/app/api/v1/items",
         method: "GET",
         dataType: "json",
         success: function (resp) {
@@ -87,7 +87,7 @@ function saveItem() {
 
         const jsonObject=JSON.stringify(newItem);
         $.ajax({
-            url:"http://localhost:8080/app/items",
+            url:"http://localhost:8080/app/api/v1/items",
             method:"POST",
             data:jsonObject,
 
@@ -155,7 +155,7 @@ function deleteItem(){
         let consent = confirm("Do you really want to Delete this item.?");
         if (consent) {
             $.ajax({
-                url: "http://localhost:8080/app/items?code=" + id,
+                url: "http://localhost:8080/app/api/v1/items?code=" + id,
                 method: "DELETE",
 
                 success: function (resp, jqxhr) {
@@ -190,7 +190,7 @@ function updateItem(){
 
             const jsonObject = JSON.stringify(newItem); 
             $.ajax({
-                url: "http://localhost:8080/app/items",
+                url: "http://localhost:8080/app/api/v1/items",
                 method: "PUT",
                 data: jsonObject,
 

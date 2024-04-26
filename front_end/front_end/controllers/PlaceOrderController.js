@@ -37,7 +37,7 @@ function loadCustomer(){
        $("#cmbCustomer").empty();
         customerDB.slice(0,customerDB.length)
         $.ajax({
-            url:"http://localhost:8080/app/customers",
+            url:"http://localhost:8080/app/api/v1/customers",
             method:"GET",
             dataType:"json",
             success:function (resp){
@@ -68,7 +68,7 @@ function loadItems(){
         $("#cmdItems").empty();
         itemDB.length=0;
         $.ajax({
-            url:"http://localhost:8080/app/items",
+            url:"http://localhost:8080/app/api/v1/items",
             method:"GET",
             dataType:"json",
             success:function (resp){
@@ -181,7 +181,7 @@ function placeOrder(){
         console.log(jsonObject);
 
         $.ajax({
-            url: "http://localhost:8080/app/placeorders",
+            url: "http://localhost:8080/app/api/v1/placeorders",
             method: "POST",
             data: jsonObject,
             contentType: ("application/json"),
@@ -241,7 +241,7 @@ function setBalance() {
 
 function genarateOrderIDs(){
     $.ajax({
-        url:"http://localhost:8080/app/placeorders",
+        url:"http://localhost:8080/app/api/v1/placeorders",
         method:"GET",
         success:function (resp){
             $("#txtOrderId").val(resp);
@@ -264,7 +264,7 @@ function setCurrentDate(){
 function loadOrderIDs(){
     $("#cmbOrderID").empty();
     $.ajax({
-        url:"http://localhost:8080/app/orders",
+        url:"http://localhost:8080/app/api/v1/placeorders",
         method:"GET",
         dataType:"json",
         success:function (resp){
